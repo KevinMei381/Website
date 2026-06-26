@@ -1,4 +1,18 @@
+@font-face {
+    font-family: 'Lora-Local';
+    src: url('../fonts/Lora-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900; 
+    font-style: normal;
+}
+
 .headerbg{
     height: 350px;
-    background-color: #6D4C2D;
+    background-color: #A6906A;
+}
+
+.header{
+    color: #6D4C2D;
+    text-align: center;
+    font-size: 50px;
+    font-family:"Lora-Local", serif;
 }
