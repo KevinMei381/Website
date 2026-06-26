@@ -16,3 +16,13 @@
     font-size: 50px;
     font-family:"Lora-Local", serif;
 }
+
+.intro{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    margin: 35px 0px 0px 35px;
+}
+
+h2{
+    text-align: center;
+}
