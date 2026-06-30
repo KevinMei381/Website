@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'Lora-Local';
+    src: url('fonts/Lora/Lora-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900; 
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lota-Local';
+    src: url('fonts/Lato/Lato-Regular.ttf') format('truetype');
+    font-weight: 100 900; 
+    font-style: normal;
+}
+
+.body{
+    margin: 0px;
+}
+
+.headerbg{
+    height: 350px;
+    background-color: #A6906A;
+}
+
+.header{
+    color: #6D4C2D;
+    text-align: center;
+    transform: translateY(150px); /*this will move the header text down*/
+    font-size: 50px;
+    font-family:"Lora-Local", serif;
+}
+
+.intro{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    margin: 35px 0px 0px 35px;
+    gap: 20px;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.text{
+    font-size: 20px;
+}
+
+.image-text{
+    font-family: "Lota-Local", serif;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.bannertext1{
+    transform: translateY(35px); 
+    text-align: center;
+    font-family: "Lora-Local", serif;
+    color: #6D4C2D;
+    font-size: 30px;
+}
+
+.bannerbg1{
+    height: 100px;
+    background-color: #A6906A;
+}
