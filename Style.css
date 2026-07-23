@@ -11,8 +11,9 @@
     font-style: normal;
 }
 
-.body{
+body{
     margin: 0px;
+    background-color: #FBFFC0;
 }
 
 .headerbg{
@@ -23,9 +24,10 @@
 .header{
     color: #6D4C2D;
     text-align: center;
-    transform: translateY(150px); /*this will move the header text down*/
+    transform: translateY(130px); /*this will move the header text down*/
     font-size: 50px;
     font-family:"Lora-Local", serif;
+    margin-top: 0px;
 }
 
 .intro{
@@ -35,7 +37,7 @@
     gap: 20px;
 }
 
-h2{
+.introh2{
     text-align: center;
     margin-bottom: 100px;
 }
@@ -50,6 +52,27 @@ h2{
     font-size: 20px;
 }
 
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 35px 35px 0px 35px;
+    gap: 30px;
+    min-height: 300px;
+
+}
+
+.potato-img{
+    display: flex; /*this push the inside of the grid layout into the boxes so they don't leak out*/
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.grid-img{
+    height: 80%;
+    width: 80%;
+}
 .bannertext1{
     transform: translateY(35px); 
     text-align: center;
@@ -61,4 +84,35 @@ h2{
 .bannerbg1{
     height: 100px;
     background-color: #A6906A;
+}
+
+.alt1{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    padding: 35px 35px 0px 35px;
+    gap: 20px;
+    min-height: 300px;
+}
+
+.alt2{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    padding: 35px 35px 35px 35px;
+    gap: 20px;
+    min-height: 300px;
+    background-color: #EBD6B1;
+}
+
+.s1image{
+    height: 100%;
+}
+
+.s1image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain; 
+}
+
+.s1text{
+    font-family: "Lota-Local", serif;
 }
