@@ -13,16 +13,16 @@
 
 body{
     margin: 0px;
-    background-color: #FBFFC0;
+    background-color: #FAF8E5;
 }
 
 .headerbg{
     height: 350px;
-    background-color: #A6906A;
+    background-color: #D8C3A5;
 }
 
 .header{
-    color: #6D4C2D;
+    color: #523921;
     text-align: center;
     transform: translateY(130px); /*this will move the header text down*/
     font-size: 50px;
@@ -52,44 +52,55 @@ body{
     font-size: 20px;
 }
 
+.gridhead{
+    background-color: #EAD7B7;
+    text-align: center;
+    font-size: 35px;
+    font-family: "Lora-Local", serif;
+    color:#523921;
+}
+
 .grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 35px 35px 0px 35px;
     gap: 30px;
     min-height: 300px;
+    background-color: #EAD7B7;
 
 }
 
-.potato-img{
+.Potato-img{
     display: flex; /*this push the inside of the grid layout into the boxes so they don't leak out*/
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: 100%;
 }
 
 .grid-img{
     height: 80%;
     width: 80%;
 }
+
 .bannertext1{
-    transform: translateY(35px); 
     text-align: center;
     font-family: "Lora-Local", serif;
-    color: #6D4C2D;
+    color: #FAF8E5;
     font-size: 30px;
 }
 
 .bannerbg1{
     height: 100px;
-    background-color: #A6906A;
+    background-color: #523921;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .alt1{
     display: grid;
     grid-template-columns: 2fr 3fr;
-    padding: 35px 35px 0px 35px;
+    padding: 35px 35px 35px 35px;
     gap: 20px;
     min-height: 300px;
 }
@@ -100,7 +111,7 @@ body{
     padding: 35px 35px 35px 35px;
     gap: 20px;
     min-height: 300px;
-    background-color: #EBD6B1;
+    background-color: #EAD7B7;
 }
 
 .s1image{
