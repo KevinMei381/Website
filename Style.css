@@ -82,6 +82,30 @@ body{
     width: 80%;
 }
 
+.grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 15px 25px 15px 25px;
+    gap: 20px;
+}
+
+.grid2-text{
+    text-align: center;
+    font-family: "Lota-Local,serif";
+    color: #2C2520;
+}
+
+.grid2-grid{
+    align-items: center;
+    text-align: center;
+}
+
+.grid2-img{
+    width: 40%;
+    height: auto;
+}
+
+
 .bannertext1{
     text-align: center;
     font-family: "Lora-Local", serif;
