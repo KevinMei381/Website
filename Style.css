@@ -33,17 +33,20 @@ body{
 .intro{
     display: grid;
     grid-template-columns: 3fr 2fr;
-    margin: 35px 0px 0px 35px;
+    margin: 35px 0px 35px 35px;
     gap: 20px;
 }
 
 .introh2{
     text-align: center;
     margin-bottom: 100px;
+    color: #523921;
+;
 }
 
-.text{
+.text-1{
     font-size: 20px;
+    color:#2C2520;
 }
 
 .image-text{
@@ -58,16 +61,26 @@ body{
     font-size: 35px;
     font-family: "Lora-Local", serif;
     color:#523921;
+    padding: 20px;
+    font-weight: bold;
 }
 
 .grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 35px 35px 0px 35px;
+    padding: 35px;
     gap: 30px;
     min-height: 300px;
     background-color: #EAD7B7;
+    height: auto;
+    align-items: start; /*keeps boxs  thatsame length*/
+    
+}
 
+.gridtext{
+    font-size: 20px;
+    font-family: "Lota-Local, serif";
+    color: #2C2520;
 }
 
 .Potato-img{
@@ -75,6 +88,7 @@ body{
     flex-direction: column;
     align-items: center;
     text-align: center;
+    height: auto;
 }
 
 .grid-img{
@@ -86,22 +100,29 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 15px 25px 15px 25px;
-    gap: 20px;
+    gap: 10px;
+    max-height: 1000px;
 }
 
 .grid2-text{
     text-align: center;
-    font-family: "Lota-Local,serif";
+    font-family: "Lota-Local",serif;
     color: #2C2520;
+    margin-top: 130px;
+    line-height: 1.5;
+    font-size: 18px;
 }
 .titlebox{
     height: 88px;
-    width: 427px;
+    width: 100%;
     background-color: #EAD7B7;
     margin-bottom: 15px ;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "Lora-Local",serif;
+    font-size: 25px;
+    color: #523921;
 }
 
 .grid2-grid{
@@ -123,13 +144,13 @@ body{
 .bannertext1{
     text-align: center;
     font-family: "Lora-Local", serif;
-    color: #FAF8E5;
+    color: #523921;
     font-size: 30px;
 }
 
 .bannerbg1{
     height: 100px;
-    background-color: #523921;
+    background-color:#D8C3A5;;
     display: flex;
     align-items: center;
     justify-content: center;
