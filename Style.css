@@ -99,19 +99,23 @@ body{
 .grid2{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 15px 25px 15px 25px;
     gap: 10px;
     max-height: 1000px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
 }
 
 .grid2-text{
     text-align: center;
     font-family: "Lota-Local",serif;
     color: #2C2520;
-    margin-top: 130px;
     line-height: 1.5;
     font-size: 18px;
+    align-self: center;
 }
+
+
 .titlebox{
     height: 88px;
     width: 100%;
@@ -138,6 +142,35 @@ body{
 .grid2-img{
     width: 70%;
     height: auto;
+}
+
+.grid2-text3{
+    text-align: center;
+    font-family: "Lota-Local",serif;
+    color: #2C2520;
+    margin-top: 130px;
+    line-height: 1.5;
+    font-size: 18px;
+    transform: translateY(20px);
+}
+
+.grid2-text4{
+    text-align: left;
+    font-family: "Lota-Local",serif;
+    color: #2C2520;
+    margin-top: 130px;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.grid2-img4{
+    width: 35%;
+    height: 35%;
+    margin-left: 5px;
+    float: right; /* shift the image to the right top automatically*/
+    background-color: #D8C3A5;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 
