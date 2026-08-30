@@ -32,9 +32,12 @@
     margin-top: 0px;
 }
 
+.head{
+    color: #523921;
+}
 
 .info{
-    color: black;
+    color: #2C2520;
     margin: 30px;
     font-size: 20px;
     margin-left: 100px;
