@@ -17,7 +17,7 @@
 }
 
 .headerbg{
-    height: 350px;
+    height: 100px;
     background-color: #D8C3A5;
 
     
@@ -26,8 +26,8 @@
 .header{
     color: #523921;
     text-align: center;
-    transform: translateY(130px); /*this will move the header text down*/
-    font-size: 50px;
+    transform: translateY(30px); /*this will move the header text down*/
+    font-size: 30px;
     font-family:"Lora-Local", serif;
     margin-top: 0px;
 }
